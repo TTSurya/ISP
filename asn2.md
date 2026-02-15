@@ -154,9 +154,8 @@ Since images are captured at different times, the following may take place:
 * Some structures appear or disappear
 * Objects may shift position
 
-Aligning the images helps highlight these differences which is the key principle behind occlusion and change detection.
+Aligning the images helps highlight these differences which is the key principle behind occlusion detection.
 
 An in-plane transformation (rotation + translation) was identified using 2-point correspondences and applied using target-to-source mapping with bilinear interpolation, producing geometrically aligned images suitable for analyzing scene differences.
 
 ---
-
